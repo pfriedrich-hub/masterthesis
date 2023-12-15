@@ -1,0 +1,249 @@
+\documentclass[12pt,oneside,ngerman,reqno,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}     % ams stuff should be before font loading
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}        % should be after font loading
+%\usepackage{fixltx2e,babel}
+\usepackage[ngerman, english]{babel}
+\usepackage[numbers]{natbib}    % bibtex package
+%\usepackage{typearea}           % custom type area
+%   \areaset[0mm]{135mm}{210mm}  % typearea configuration
+%   \topmargin5mm                % typearea configuration
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{latexsym}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{acronym}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{subfloat}
+\usepackage{titletoc}
+\usepackage{dsfont}
+\usepackage{enumitem}
+\usepackage{gensymb}
+\numberwithin{equation}{section}
+
+
+
+\usepackage{ifpdf}
+\ifpdf
+  \pdfminorversion=5
+  \pdfoutput=1
+% Diese Pakete laufen anscheinend nur mit pdflatex gescheit
+    \usepackage[bitstream-charter]{mathdesign}
+    \usepackage[pdfusetitle,colorlinks=true,linktoc=all]{hyperref}
+\else
+    \usepackage[bitstream-charter]{mathdesign}
+%    falls Mathdesign nicht geht, kann dieser Font genutzt werden.
+%    \usepackage{times}
+    \usepackage[dvips,ps2pdf,linktoc=all]{hyperref}
+\fi
+\ifdefined\hypersetup
+  \hypersetup{
+    pdfkeywords={}, linkcolor=black, citecolor=black, filecolor=black, urlcolor=black,
+  }
+\fi
+% Das ist nur fuer den Blindtext zustaending
+\usepackage{blindtext}
+% Blattlayout
+\textwidth15cm
+\textheight23cm
+\topmargin0cm
+\oddsidemargin0.5cm
+\evensidemargin0.5cm
+\parindent0em
+\parskip0.5em
+% Header, Footer
+\usepackage{fancyhdr}
+ % Text in Kopfzeile aussen
+\fancyhead[LE,RO]{\nouppercase{\leftmark} }
+% Text in Kopfzeile innen
+\fancyhead[RE,LO]{}
+% Text in Fusszeile mittig
+\fancyfoot[CE,CO]{\thepage}
+\pagestyle{fancy}
+
+\DeclareMathOperator{\var}{Var}
+\DeclareMathOperator{\cov}{Cov}
+
+\begin{document}
+
+\pagenumbering{Alph}
+\renewcommand{\thepage}{C-\Roman{page}}
+
+
+\begin{titlepage}
+	\begin{center}
+		
+		\LARGE{}{Technische Universität Dresden} \\
+		\LARGE{Fakultät Informatik} \\
+		\vspace{0.2cm}
+		\Large{Computational Modeling and Simulation} \\
+		
+		\vspace{1.5cm}
+		\noindent\rule{\textwidth}{1.5pt}
+		\vspace{0.2cm}
+		
+		\LARGE{Master Thesis} \\ % If necessary, replace text with
+		\vspace{0.8cm}
+		\LARGE{\textbf{Quantifying differences in the microanatomy of the auditory cortex between both hemispheres of the mammalian brain}} \\
+		\vspace{0.8cm}
+		\Large{Gesine Müller}\\
+		\vspace{0.8cm}
+		\noindent\rule{\textwidth}{1.5pt}
+		%\vspace{1cm}
+	\end{center}
+	
+	\vspace{1.2cm}
+	
+	\normalsize{\textbf{Supervised by}:  Dr. Nico Scherf and Philip Ruthig} \\
+	%\normalize{\textbf{Supervised by}: \betreuer } \\
+	%\large{Neural Data Science and Statistical Computing} \\
+	%\large{Max Planck Institute for Human Cognitive and Brain Sciences} 
+	
+	\vspace{0.2cm}
+	\normalsize{\textbf{Reviewers:}}\\
+	\normalsize{$1^{st}$ Reviewer: Prof. Dr. Marc Schönwiesner} \\
+	\normalsize{$2^{nd}$ Reviewer: PD Dr. Ingmar Glauche}\\
+	
+	\vspace*{\fill}
+	\begin{center}
+		\normalsize{Submission date: 16.02.2022} \\
+		\normalsize{Dresden} 
+	\end{center}
+	
+	 \begin{minipage}{0.3\textwidth}
+		%\vspace*{10mm}
+		\includegraphics[width=\textwidth]{logo/UniLeipzig.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.3\textwidth}
+		\includegraphics[width=\textwidth]{logo/TU_Dresden_Logo/JPG_Ansicht/TU_Dresden_Logo_blau_HKS41.jpg}
+	\end{minipage}
+	\hfill
+\begin{minipage}{0.15\textwidth}
+	\includegraphics[width=\textwidth]{logo/MPI.jpg}
+\end{minipage}
+	
+\end{titlepage}
+
+
+
+\pagenumbering{Roman}
+%\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+\markboth{Abstract}{*} % Damit Zusammenfassung auch im Heading auftaucht.
+
+
+\newpage
+\tableofcontents
+\markboth{Contents}{*}
+\newpage
+\pagenumbering{arabic}
+
+\begin{abstract}
+
+\end{abstract}
+\newpage
+
+\section{Introduction}
+\markboth{Introduction}{}
+\subsection{Microstructural organization of the mammalian auditory cortex}
+The mammalian neocortex promotes manifold cognitive functions such as sensory and motoric processing of visual and auditory clues. It consists of distinctive neocortical areas whose properties have been entensively explored. The auditory cortex forms a part of the temporal neocortex and represents the brain’s principal area of auditory processing. Incoming acoustic information is transformed in the auditory cortex to an abstract representation, further processed, and passed on to other regions in the brain. Due to its intensive connectivity to other sensory and non-sensory brain structures, the auditory cortex is beneficially located in the auditory processing network \cite{Budinger2018}. Its architecture and organization principles are the focus of this project. \\
+\\
+...\\
+
+\newpage
+\section{Biological Background}
+\markboth{Biological Background}{}
+\subsection{Auditory processing and structure of the auditory cortex}
+\markboth{Auditory processing and structure of the ACx}{}
+...\\
+The first description of the ACx tonotopic map in mice by  Stiebler et al. \cite{Stiebler1997} is based on the characteristic frequency for which a neuron shows its lowest excitatory threshold. That was later on refined to contain six subregions: the anterior auditory field (AAF), primary auditory field (A1), secondary
+auditory field (A2), dorsomedial field (DM) are tonotopic organized whereas the dorsoanterior field (DA) and dorsoposterior field (DP) are non-tonotopically with a distinct characteristic frequency but spatially non-tonotopic arrangement. However, no distinct equivalence of topography and tonotopy can be defined for every part of the auditory pathway \cite{Tsukano2017}.\\ %in the mouse ventral division of the medial geniculate body (MGv) 
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=15cm]{Stereotaxonomy5.jpg}
+		\caption[Stereotaxonomy]{\textbf{Coordinate framework for the mouse brain and microstructural organisation of the ACx.} (A) The location of the ACx in the mouse is given along with the direction of the tonotopic and the isofrequency axis d \cite{Oviedo2010}. The coordinate framework is defined through the axes anterior A to posterior P and dorsal D to ventral V. The coronal (B), sagittal (C) and horizontal (D) views of the three-dimensional Allen mouse brain reference atlas \cite{Wang2020} are depicted additional with the respective coordinate frameworks of A-P (also elsewhere defined as rostral-caudal), D-V (elsewhere also given as superior-inferior) and left L to right R. The arrangement of the six cortical layers L1 to L6 are shown in a in-plane slice of the ACx of the autofluorescence channel of one exemplary dataset (E).
+			\label{stereotaxonomy}}
+	\end{center}
+\end{figure}
+\vspace{-0.75cm}
+As described in Tsukano et al. \cite{Tsukano2017},...
+\begin{itemize}
+	\item Layer 1 is the outermost layer and built up mostly by neuropil and apical dendrites.
+	\item Layer 2/3 are combined due to their functional similarity and consist of small and medium pyramidal neurons and a variety of nonpyramidal neurons. 
+	\item Layer 4 is the inner granular layer and is practically devoid of pyramidal cells.
+	\item Layer 5, the inner pyramidal  layer, is distinguished into a cell-sparse upper sublayer and cell-rich lower layer.
+	\item Layer 6 is the multiform or polymorphic layer and exhibits the most diverse cell type population in the ACx.
+\end{itemize}
+
+
+\newpage
+
+\section{Methods}
+... layer sizes (see Table \ref{layers})
+\begin{table}[ht]
+	\centering
+	\caption{Adapted layer sizes.}
+	\begin{tabular}{ c c c }
+		\toprule
+		Layer & Layer thickness \cite{Wang2020} & Adapted layer thickness \\ \hline
+		L1 & \(0-90 \text{ } \mu m\) & \(0-58.5 \text{ } \mu m\) \\  
+		L2/3 &\(90-361 \text{ } \mu m\) & \(58.5-234.65 \text{ } \mu m\) \\
+		L4 & \(361-465 \text{ } \mu m\) &\(234.65-302.25 \text{ } \mu m\) \\
+		L5 & \(465-857 \text{ } \mu m\) & \(302.25-557.05 \text{ } \mu m\) \\
+		L6 & \(857-1157 \text{ } \mu m\) & \(557.05-752.05 \text{ } \mu m\)\\ \bottomrule 
+	\end{tabular}
+	\label{layers}
+\end{table}
+
+some formulas:
+\begin{equation}
+\boldsymbol J(\boldsymbol x_{0})=\int_{\mathbb{R}^{2}} w(\boldsymbol x-\boldsymbol x_{0})(\nabla f(\boldsymbol x))\nabla^{T}f(\boldsymbol x)dx_{1}dx_{2}.
+\end{equation}
+Here, \(w\) is the window funtion, in this case a Gaussian centered around \(x_{0}\), and the eigenvalues \(\lambda_{\max}\) and \(\lambda_{\min}\) are calculated from the smoothed \(\boldsymbol J\):
+\begin{equation}
+\boldsymbol J=
+\begin{pmatrix}
+f_{x_{1}}^{2}(\boldsymbol x) & f_{x_{1}}(\boldsymbol x)f_{x_{2}}(\boldsymbol x) \\
+f_{x_{2}}(\boldsymbol x)f_{x_{1}}(\boldsymbol x) & f_{x_{2}}^{2}(\boldsymbol x)
+\end{pmatrix}.
+\end{equation}
+Additionally to the orientation \(\phi\), the energy \(E\) representing homogeneity when \(E \sim 0\) (\(\lambda_{\max} =\lambda_{\min} \sim 0\)) and the coherence \(C\) being a measure of confidence if \(E >> 0\) can be calculated. \(C\) equals \(1\) if one distinct dominant direction can be found and equals \(0\) if the structures are essentially isotropic. 
+\begin{subequations}
+	\begin{align}
+	\text{Orientation } \phi&=\frac{1}{2} \arctan(\frac{2 \boldsymbol J_{12}}{\boldsymbol J_{22}-\boldsymbol J_{11}}), \\
+	\text{Energy } E&=\text{trace}(\boldsymbol J), \\
+	\text{Coherence } C &= \frac{\lambda_{\max}-\lambda_{\min}}{\lambda_{\max}+\lambda_{\min}} \in [0,1].	
+	\end{align}
+\end{subequations}
+
+\newpage
+\section{Results}
+\markboth{Results}{}
+
+\newpage
+\section{Discussion}
+\markboth{Discussion}{}
+
+
+%\urlstyle{same}
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+\bibliographystyle{unsrt} %unsrt
+\bibliography{MA_library}
+\addcontentsline{toc}{section}{References}
+
+\clearpage\thispagestyle{empty}
+
+
+
+\end{document}
