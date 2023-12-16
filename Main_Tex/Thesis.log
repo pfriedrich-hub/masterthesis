@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  16 DEC 2023 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  16 DEC 2023 01:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -442,7 +442,14 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box101
 )
-(./Thesis.aux)
+(./Thesis.aux
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -629,32 +636,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--39
  []
 
 [3] [4] (../Results/results.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
-<../Results/figures/ele_learning/ele_learning.pdf, id=25, 441.69978pt x 278.592
-88pt>
-File: ../Results/figures/ele_learning/ele_learning.pdf Graphic file (type pdf)
-<use ../Results/figures/ele_learning/ele_learning.pdf>
-Package pdftex.def Info: ../Results/figures/ele_learning/ele_learning.pdf  used
- on input line 12.
-(pdftex.def)             Requested size: 369.88582pt x 233.30225pt.
-File: ../Results/figures/ele_learning/ele_learning.pdf Graphic file (type pdf)
-<use ../Results/figures/ele_learning/ele_learning.pdf>
-Package pdftex.def Info: ../Results/figures/ele_learning/ele_learning.pdf  used
- on input line 12.
-(pdftex.def)             Requested size: 369.88582pt x 233.30225pt.
-File: ../Results/figures/ele_learning/ele_learning.pdf Graphic file (type pdf)
-<use ../Results/figures/ele_learning/ele_learning.pdf>
-Package pdftex.def Info: ../Results/figures/ele_learning/ele_learning.pdf  used
- on input line 12.
-(pdftex.def)             Requested size: 369.88582pt x 233.30225pt.
+<../Results/figures/hrtf_compare/hrtf_compare.pdf, id=35, 554.72063pt x 204.297
+94pt>
+File: ../Results/figures/hrtf_compare/hrtf_compare.pdf Graphic file (type pdf)
+<use ../Results/figures/hrtf_compare/hrtf_compare.pdf>
+Package pdftex.def Info: ../Results/figures/hrtf_compare/hrtf_compare.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 398.33858pt x 146.70161pt.
+File: ../Results/figures/hrtf_compare/hrtf_compare.pdf Graphic file (type pdf)
+<use ../Results/figures/hrtf_compare/hrtf_compare.pdf>
+Package pdftex.def Info: ../Results/figures/hrtf_compare/hrtf_compare.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 398.33858pt x 146.70161pt.
+File: ../Results/figures/hrtf_compare/hrtf_compare.pdf Graphic file (type pdf)
+<use ../Results/figures/hrtf_compare/hrtf_compare.pdf>
+Package pdftex.def Info: ../Results/figures/hrtf_compare/hrtf_compare.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 398.33858pt x 146.70161pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
@@ -665,108 +667,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
-[5 <../Results/figures/ele_learning/ele_learning.pdf>]
-<../Results/figures/hrtf_compare/hrtf_compare.pdf, id=396, 554.72063pt x 204.29
-794pt>
-File: ../Results/figures/hrtf_compare/hrtf_compare.pdf Graphic file (type pdf)
-<use ../Results/figures/hrtf_compare/hrtf_compare.pdf>
-Package pdftex.def Info: ../Results/figures/hrtf_compare/hrtf_compare.pdf  used
- on input line 30.
-(pdftex.def)             Requested size: 528.93675pt x 194.81139pt.
+<../Results/figures/spectral_change_p/spectral_change_p.pdf, id=36, 385.53229pt
+ x 149.20117pt>
+File: ../Results/figures/spectral_change_p/spectral_change_p.pdf Graphic file (
+type pdf)
+<use ../Results/figures/spectral_change_p/spectral_change_p.pdf>
+Package pdftex.def Info: ../Results/figures/spectral_change_p/spectral_change_p
+.pdf  used on input line 27.
+(pdftex.def)             Requested size: 369.88582pt x 143.14496pt.
+File: ../Results/figures/spectral_change_p/spectral_change_p.pdf Graphic file (
+type pdf)
+<use ../Results/figures/spectral_change_p/spectral_change_p.pdf>
+Package pdftex.def Info: ../Results/figures/spectral_change_p/spectral_change_p
+.pdf  used on input line 27.
+(pdftex.def)             Requested size: 369.88582pt x 143.14496pt.
+File: ../Results/figures/spectral_change_p/spectral_change_p.pdf Graphic file (
+type pdf)
+<use ../Results/figures/spectral_change_p/spectral_change_p.pdf>
+Package pdftex.def Info: ../Results/figures/spectral_change_p/spectral_change_p
+.pdf  used on input line 27.
+(pdftex.def)             Requested size: 369.88582pt x 143.14496pt.
+[5 <../Results/figures/hrtf_compare/hrtf_compare.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 31.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+<../Results/figures/ele_learning/ele_learning.pdf, id=2283, 441.69978pt x 278.5
+9288pt>
+File: ../Results/figures/ele_learning/ele_learning.pdf Graphic file (type pdf)
+<use ../Results/figures/ele_learning/ele_learning.pdf>
+Package pdftex.def Info: ../Results/figures/ele_learning/ele_learning.pdf  used
+ on input line 44.
+(pdftex.def)             Requested size: 369.88582pt x 233.30225pt.
+File: ../Results/figures/ele_learning/ele_learning.pdf Graphic file (type pdf)
+<use ../Results/figures/ele_learning/ele_learning.pdf>
+Package pdftex.def Info: ../Results/figures/ele_learning/ele_learning.pdf  used
+ on input line 44.
+(pdftex.def)             Requested size: 369.88582pt x 233.30225pt.
+File: ../Results/figures/ele_learning/ele_learning.pdf Graphic file (type pdf)
+<use ../Results/figures/ele_learning/ele_learning.pdf>
+Package pdftex.def Info: ../Results/figures/ele_learning/ele_learning.pdf  used
+ on input line 44.
+(pdftex.def)             Requested size: 369.88582pt x 233.30225pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
 
 
-LaTeX Warning: Reference `fig:figure' on page 6 undefined on input line 31.
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
 
 
-LaTeX Warning: Reference `fig:figure' on page 6 undefined on input line 31.
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+[6 <../Results/figures/spectral_change_p/spectral_change_p.pdf>])
+Underfull \hbox (badness 10000) in paragraph at lines 67--43
+
+ []
+
+[7] (./Thesis.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+) [8] [9 <../Results/figures/ele_learning/ele_learning.pdf>]
+(./Thesis.aux)
 
-Package natbib Warning: Citation `trapeau_fast_2016' on page 6 undefined on inp
-ut line 40.
-
-
-Package natbib Warning: Citation `middlebrooks_individual_1999' on page 6 undef
-ined on input line 40.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
-
- []
-
-[6 <../Results/figures/hrtf_compare/hrtf_compare.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-
- []
-
-) [7] (./Thesis.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[8] (./Thesis.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12380 strings out of 476025
- 204558 string characters out of 5790016
+ 12395 strings out of 476025
+ 205282 string characters out of 5790016
  1876388 words of memory out of 5000000
- 32637 multiletter control sequences out of 15000+600000
+ 32647 multiletter control sequences out of 15000+600000
  538160 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,4107b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,4107b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loc
 al/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (8 pages, 1772849 bytes).
+Output written on Thesis.pdf (9 pages, 4465395 bytes).
 PDF statistics:
- 2684 PDF objects out of 2984 (max. 8388607)
- 1786 compressed objects within 18 object streams
- 19 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 19067 PDF objects out of 22161 (max. 8388607)
+ 12640 compressed objects within 127 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

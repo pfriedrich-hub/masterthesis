@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,5 +32,16 @@ R.~Trapeau, V.~Aubrais, and M.~Schönwiesner.
 \newblock \doi{10.1121/1.4960568}.
 \newblock URL
   \url{https://pubs.aip.org/jasa/article/140/2/879/663968/Fast-and-persistent-adaptation-to-new-spectral}.
+
+\bibitem[Wanrooij and Opstal(2005)]{wanrooij_relearning_2005}
+M.~M.~V. Wanrooij and A.~J.~V. Opstal.
+\newblock Relearning {Sound} {Localization} with a {New} {Ear}.
+\newblock \emph{Journal of Neuroscience}, 25\penalty0 (22):\penalty0
+  5413--5424, June 2005.
+\newblock ISSN 0270-6474, 1529-2401.
+\newblock \doi{10.1523/JNEUROSCI.0850-05.2005}.
+\newblock URL \url{https://www.jneurosci.org/content/25/22/5413}.
+\newblock Publisher: Society for Neuroscience Section:
+  Behavioral/Systems/Cognitive.
 
 \end{thebibliography}

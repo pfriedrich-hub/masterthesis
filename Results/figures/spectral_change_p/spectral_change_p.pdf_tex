@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{553.80914307bp}%
+    \setlength{\unitlength}{384.09194946bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,7 +50,7 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.36751774)%
+  \begin{picture}(1,0.38700044)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{spectral_change_p.pdf}}%
