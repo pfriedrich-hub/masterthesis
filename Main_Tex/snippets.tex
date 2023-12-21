@@ -1,0 +1,23 @@
+ 
+ % minipage
+ \par % new paragraph
+ %\medskip % spacing
+ %\noindent % prevent indent
+ %\begin{minipage}[position][height][inner-pos]{width} 
+\begin{minipage}[t]{\textwidth}
+  \centering % center the figure in the minipage
+  \includegraphics[width=13cm, right]{../Results/figures/ele_learning/ele_learning}
+ %\captionof{figure}{my caption of the figure, and here is a link \ref{fig:figure}}
+ %\label{fig:figure} % label for figure link
+ \end{minipage}
+ \par
+ %\medskip
+ 
+ % caption left / right of figure
+ \end{multicols} 
+\begin{figure}[hb]
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+{\caption{A test figure with its caption side by side}\label{fig:test}}
+{\includegraphics[width=14cm]{../Results/figures/hrtf_compare/hrtf_compare}}
+\end{figure}
+\begin{multicols}{2}

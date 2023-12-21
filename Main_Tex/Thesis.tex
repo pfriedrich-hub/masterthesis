@@ -1,4 +1,4 @@
-\documentclass[10pt]{article}
+\documentclass[10pt, twocolumn]{article}
 \usepackage{mathptmx}
 % column margins
 \usepackage[margin={1.5cm,1.5cm}]{geometry} 
@@ -6,6 +6,7 @@
 % multicolumns and figure captions
 \usepackage{multicol, caption} 
 % images
+\usepackage{wrapfig}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox} % allows alignment of figures
 \usepackage{floatrow}
@@ -20,7 +21,6 @@
   {\par\medskip\noindent\minipage{\linewidth}}
   {\endminipage\par\medskip}
 
-
 \begin{document}
 
 \title{\thesistitle}% title page 
@@ -29,7 +29,6 @@
 \maketitle
 
 \newpage%Introduction
-\begin{multicols}{2}
 \section{Introduction}\label{sec1}
 \input{../Introduction/introduction.tex}
 
@@ -40,9 +39,6 @@
 \newpage
 \section{Results}\label{sec3}%Results
 \input{../Results/results.tex}
-
-\end{multicols} % end multiple columns
-
 
 %
 \newpage\section{References}
