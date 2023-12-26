@@ -1,22 +1,54 @@
-\documentclass[10pt, twocolumn]{article}
+\documentclass[12pt]{article}
+
+% links
+\usepackage[colorlinks]{hyperref}
+\hypersetup{allcolors=blue}
+\usepackage[capitalise]{cleveref}
 \usepackage{mathptmx}
+
+% section and subsection titles
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{1.5\baselineskip}{2\baselineskip}
+\titlespacing*{\subsection}
+{0pt}{1.5\baselineskip}{\baselineskip}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+%{0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+
 % column margins
 \usepackage[margin={1.5cm,1.5cm}]{geometry} 
-\setlength{\columnsep}{.5cm}
-% multicolumns and figure captions
-\usepackage{multicol, caption} 
-% images
+%\setlength{\columnsep}{.5cm}
+
+% multicolumns 
+%\usepackage{multicol, caption} 
+
+% images and captions
 \usepackage{wrapfig}
 \usepackage{graphicx}
 \usepackage[export]{adjustbox} % allows alignment of figures
-\usepackage{floatrow}
+\usepackage{floatrow} % allows captions to the side
+\usepackage{caption} 
+\captionsetup{font=footnotesize}
+
+% section and subsection numbering
+\renewcommand{\thesubsection}{\Alph{subsection}.}
+\renewcommand{\thesection}{\Roman{section}.}
+
+% indent after subsection
+\usepackage{indentfirst}
 
 %citation
 \usepackage[round, authoryear]{natbib}
 \bibliographystyle{abbrvnat}
 \usepackage[colorlinks,citecolor=blue,urlcolor=blue,bookmarks=false,hypertexnames=true] {hyperref} 
+
 %custom
-\newcommand\thesistitle{Rate and persistence of adaptation remains consistent across multiple sets of spectral cues for sound localisation}% title
+\newcommand\thesistitle{Rate and persistence of adaptation remains consistent across multiple sets of spectral cues for sound localisation}
+
+% title
 \newenvironment{sc_figure} % single column figure environment
   {\par\medskip\noindent\minipage{\linewidth}}
   {\endminipage\par\medskip}
@@ -28,20 +60,18 @@
 \date{February 2023}
 \maketitle
 
-\newpage%Introduction
-\section{Introduction}\label{sec1}
+%\twocolumn
+\newpage\section{Introduction}\label{sec1}%Introduction
 \input{../Introduction/introduction.tex}
 
-\newpage
-\section{Methods and Materials}\label{sec2}%Methods
+%\twocolumn
+\newpage\section{Methods and Materials}\label{sec2}%Methods
 \input{../Methods/methods.tex}
 
-\newpage
-\section{Results}\label{sec3}%Results
 \input{../Results/results.tex}
 
-%
-\newpage\section{References}
+%\twocolumn
+%\newpage\section{References}
 \nocite{*}
 \bibliography{lib/references.bib}
 %
