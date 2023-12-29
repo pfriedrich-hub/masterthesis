@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  26 DEC 2023 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  29 DEC 2023 19:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -234,6 +234,9 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen148
 \titlewidthfirst=\dimen149
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -396,9 +399,6 @@ Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip67
@@ -407,17 +407,17 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count286
 )
 
-./Thesis.tex:47: LaTeX Error: Option clash for package hyperref.
+./Thesis.tex:48: LaTeX Error: Option clash for package hyperref.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 
+l.48 
      
 ? 
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-6.
+7.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -429,24 +429,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -455,7 +455,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 56.
+Package hyperref Info: Link coloring ON on input line 57.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
@@ -522,35 +522,35 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 62.
+ 63.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 62.
+ 63.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 62.
+ 63.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 62.
+ 63.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -568,7 +568,7 @@ l.11 ...s measured by a probe microphone (Brüel &
 
 ? 
 [4]
-<../Results/figures/fig1/fig1.pdf, id=89, 341.1144pt x 170.5572pt>
+<../Results/figures/fig1/fig1.pdf, id=107, 341.1144pt x 170.5572pt>
 File: ../Results/figures/fig1/fig1.pdf Graphic file (type pdf)
 <use ../Results/figures/fig1/fig1.pdf>
 Package pdftex.def Info: ../Results/figures/fig1/fig1.pdf  used on input line 1
@@ -630,74 +630,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
  []
 
 [5]) (../Results/results.tex [6]
-<../Results/figures/fig2/fig2.pdf, id=100, 284.02109pt x 369.29974pt>
+<../Results/figures/fig2/fig2.pdf, id=116, 284.02109pt x 369.29974pt>
 File: ../Results/figures/fig2/fig2.pdf Graphic file (type pdf)
 <use ../Results/figures/fig2/fig2.pdf>
 Package pdftex.def Info: ../Results/figures/fig2/fig2.pdf  used on input line 8
 .
 (pdftex.def)             Requested size: 256.0748pt x 332.98091pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 
-Overfull \hbox (6.55035pt too wide) in paragraph at lines 15--16
+
+LaTeX Warning: Reference `fig:ef_l_r' on page 1 undefined on input line 16.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+
+Overfull \hbox (6.55035pt too wide) in paragraph at lines 16--17
 []\OT1/ptm/m/n/12 Participants' di-rec-tional trans-fer func-tions (DTFs)
  []
 
 [7 <../Results/figures/fig2/fig2.pdf>]
-<../Results/figures/fig3/fig3.pdf, id=180, 426.39296pt x 284.02109pt>
+<../Results/figures/fig3/fig3.pdf, id=197, 426.39296pt x 284.02109pt>
 File: ../Results/figures/fig3/fig3.pdf Graphic file (type pdf)
 <use ../Results/figures/fig3/fig3.pdf>
 Package pdftex.def Info: ../Results/figures/fig3/fig3.pdf  used on input line 3
-0.
+2.
 (pdftex.def)             Requested size: 426.79134pt x 284.29341pt.
-<../Results/figures/fig4/fig4.pdf, id=181, 312.92914pt x 314.37451pt>
+<../Results/figures/fig4/fig4.pdf, id=198, 312.92914pt x 314.37451pt>
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
-0.
+2.
 (pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
-0.
+2.
 (pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
-0.
+2.
 (pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
  [8 <../Results/figures/fig3/fig3.pdf>]
-<../Results/figures/fig5/fig5.pdf, id=18816, 511.67162pt x 312.92914pt>
+<../Results/figures/fig5/fig5.pdf, id=18833, 511.67162pt x 312.92914pt>
 File: ../Results/figures/fig5/fig5.pdf Graphic file (type pdf)
 <use ../Results/figures/fig5/fig5.pdf>
 Package pdftex.def Info: ../Results/figures/fig5/fig5.pdf  used on input line 5
-5.
+6.
 (pdftex.def)             Requested size: 512.1496pt x 313.24828pt.
 
-[9 <../Results/figures/fig4/fig4.pdf>]
-<../Results/figures/fig6/fig6.pdf, id=18966, 341.1144pt x 141.64919pt>
+[9 <../Results/figures/fig4/fig4.pdf>] [10 <../Results/figures/fig5/fig5.pdf>]
+<../Results/figures/fig6/fig6.pdf, id=19350, 341.1144pt x 141.64919pt>
 File: ../Results/figures/fig6/fig6.pdf Graphic file (type pdf)
 <use ../Results/figures/fig6/fig6.pdf>
-Package pdftex.def Info: ../Results/figures/fig6/fig6.pdf  used on input line 6
-8.
+Package pdftex.def Info: ../Results/figures/fig6/fig6.pdf  used on input line 7
+6.
 (pdftex.def)             Requested size: 341.43306pt x 141.7893pt.
- [10 <../Results/figures/fig5/fig5.pdf>]
-Underfull \hbox (badness 2012) in paragraph at lines 78--79
-\OT1/ptm/m/n/12 ri-ods. Adap-ta-tion was driven
+
+Underfull \hbox (badness 4181) in paragraph at lines 82--82
+|[]\OT1/ptm/b/n/14.4 Effects of VSI dis-
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 82--82
+\OT1/ptm/b/n/14.4 sim-i-lar-ity on the dis-rup-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 par-tic-i-pant's lo-cal-iza-tion per-for-
  []
 
 [11 <../Results/figures/fig6/fig6.pdf>]
-<../Results/figures/fig7/fig7.pdf, id=19361, 398.20773pt x 213.19647pt>
+<../Results/figures/fig7/fig7.pdf, id=19386, 398.20773pt x 213.19647pt>
 File: ../Results/figures/fig7/fig7.pdf Graphic file (type pdf)
 <use ../Results/figures/fig7/fig7.pdf>
 Package pdftex.def Info: ../Results/figures/fig7/fig7.pdf  used on input line 9
-5.
+6.
 (pdftex.def)             Requested size: 398.33858pt x 213.274pt.
-) [12 <../Results/figures/fig7/fig7.pdf>] (./Thesis.bbl
+) (./Thesis.bbl
 Underfull \hbox (badness 3965) in paragraph at lines 26--35
 []\OT1/ptm/m/n/12 R. Tra-peau, V. Aubrais, and M. Sch[]onwiesner.  Fast and per
 -sis-tent adap-ta-tion to new spec-
@@ -715,42 +729,35 @@ Underfull \hbox (badness 3302) in paragraph at lines 26--35
 (2):879--890, Aug. 2016.  ISSN 0001-4966, 1520-
  []
 
-) [13] (./Thesis.aux)
+[12]) [13 <../Results/figures/fig7/fig7.pdf>] (./Thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 015E80004C0032AC0C35E06D2E75A548;4896
-(rerunfilecheck)             After:  967170EE6F2AF8BCF50F84CA8CF157EF;5995.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D9EAE240F4EB5E25CDD5CF55A6DFAC51;6003.
  ) 
 Here is how much of TeX's memory you used:
- 14478 strings out of 476025
- 249598 string characters out of 5790016
- 1864388 words of memory out of 5000000
- 34665 multiletter control sequences out of 15000+600000
- 545580 words of font info for 97 fonts, out of 8000000 for 9000
+ 14481 strings out of 476025
+ 249652 string characters out of 5790016
+ 1865388 words of memory out of 5000000
+ 34670 multiletter control sequences out of 15000+600000
+ 546687 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,117p,4103b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{figure.caption.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (13 pages, 4859277 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
+3/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (13 pages, 4863215 bytes).
 PDF statistics:
- 20031 PDF objects out of 22161 (max. 8388607)
- 13308 compressed objects within 134 object streams
- 48 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 20059 PDF objects out of 22161 (max. 8388607)
+ 13334 compressed objects within 134 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

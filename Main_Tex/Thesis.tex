@@ -6,6 +6,7 @@
 \usepackage[capitalise]{cleveref}
 \usepackage{mathptmx}
 
+% sections
 % section and subsection titles
 \usepackage{titlesec}
 \titlespacing*{\section}
@@ -17,6 +18,11 @@
 \titleformat{\subsection}
 {\normalfont\large\bfseries}{\thesubsection}{1em}{}
 %{0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+% section and subsection numbering
+\renewcommand{\thesubsection}{\Alph{subsection}.}
+\renewcommand{\thesection}{\Roman{section}.}
+% indent after subsection
+\usepackage{indentfirst}
 
 % column margins
 \usepackage[margin={1.5cm,1.5cm}]{geometry} 
@@ -33,12 +39,7 @@
 \usepackage{caption} 
 \captionsetup{font=footnotesize}
 
-% section and subsection numbering
-\renewcommand{\thesubsection}{\Alph{subsection}.}
-\renewcommand{\thesection}{\Roman{section}.}
 
-% indent after subsection
-\usepackage{indentfirst}
 
 %citation
 \usepackage[round, authoryear]{natbib}
