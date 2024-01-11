@@ -1,9 +1,18 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andéol et~al.(2013)Andéol, Macpherson, and Sabin]{andeol_sound_2013}
+G.~Andéol, E.~A. Macpherson, and A.~T. Sabin.
+\newblock Sound localization in noise and sensitivity to spectral shape.
+\newblock \emph{Hearing Research}, 304:\penalty0 20--27, Oct. 2013.
+\newblock ISSN 03785955.
+\newblock \doi{10.1016/j.heares.2013.06.001}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0378595513001445}.
 
 \bibitem[Hofman(1998)]{hofman_relearning_1998}
 P.~M. Hofman.
@@ -20,6 +29,16 @@ J.~C. Middlebrooks.
 \newblock \doi{10.1121/1.427176}.
 \newblock URL
   \url{https://pubs.aip.org/jasa/article/106/3/1480/553209/Individual-differences-in-external-ear-transfer}.
+
+\bibitem[Schönwiesner and Bialas(2021)]{schonwiesner_soundlab_2021}
+M.~Schönwiesner and O.~Bialas.
+\newblock s(ound)lab: {An} easy to learn {Python} package for designing and
+  running psychoacoustic experiments.
+\newblock \emph{Journal of Open Source Software}, 6\penalty0 (62):\penalty0
+  3284, June 2021.
+\newblock ISSN 2475-9066.
+\newblock \doi{10.21105/joss.03284}.
+\newblock URL \url{https://joss.theoj.org/papers/10.21105/joss.03284}.
 
 \bibitem[Trapeau et~al.(2016)Trapeau, Aubrais, and
   Schönwiesner]{trapeau_fast_2016}
@@ -43,5 +62,12 @@ M.~M.~V. Wanrooij and A.~J.~V. Opstal.
 \newblock URL \url{https://www.jneurosci.org/content/25/22/5413}.
 \newblock Publisher: Society for Neuroscience Section:
   Behavioral/Systems/Cognitive.
+
+\bibitem[Ward(1979)]{ward_stimulus_1979}
+L.~M. Ward.
+\newblock Stimulus {Information} and {Sequential} {Dependencies} in {Magnitude}
+  {Estimation} and {Cross}-{Modality} {Matching}.
+\newblock \emph{Journal of Experimental Psychology: Human Perception and
+  Performance}, 5\penalty0 (3):\penalty0 444--459, 1979.
 
 \end{thebibliography}

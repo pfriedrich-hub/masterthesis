@@ -39,8 +39,6 @@
 \usepackage{caption} 
 \captionsetup{font=footnotesize}
 
-
-
 %citation
 \usepackage[round, authoryear]{natbib}
 \bibliographystyle{abbrvnat}
@@ -54,6 +52,8 @@
   {\par\medskip\noindent\minipage{\linewidth}}
   {\endminipage\par\medskip}
 
+
+
 \begin{document}
 
 \title{\thesistitle}% title page 
@@ -61,20 +61,15 @@
 \date{February 2023}
 \maketitle
 
-%\twocolumn
-\newpage\section{Introduction}\label{sec1}%Introduction
 \input{../Introduction/introduction.tex}
 
-%\twocolumn
-\newpage\section{Methods and Materials}\label{sec2}%Methods
 \input{../Methods/methods.tex}
 
 \input{../Results/results.tex}
 
-%\twocolumn
-%\newpage\section{References}
+\input{../Discussion/discussion.tex}
+
 \nocite{*}
 \bibliography{lib/references.bib}
-%
 
 \end{document}

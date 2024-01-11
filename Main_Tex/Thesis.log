@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  29 DEC 2023 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  10 JAN 2024 23:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -407,13 +407,13 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count286
 )
 
-./Thesis.tex:48: LaTeX Error: Option clash for package hyperref.
+./Thesis.tex:46: LaTeX Error: Option clash for package hyperref.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 
+l.46 
      
 ? 
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
@@ -426,7 +426,14 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box58
 )
-(./Thesis.aux)
+(./Thesis.aux
+
+LaTeX Warning: Label `sec1' multiply defined.
+
+
+LaTeX Warning: Label `sec1@cref' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -449,6 +456,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
@@ -551,114 +559,64 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
- [1
+
+(../Introduction/introduction.tex [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (../Introduction/intro
-duction.tex) [2] (../Methods/methods.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-.
+al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]) (../Methods/metho
+ds.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+0.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3]
-../Methods/methods.tex:11: Misplaced alignment tab character &.
-l.11 ...s measured by a probe microphone (Brüel &
-                                                   Kjær, Nærum, Denmark) p...
-
-? 
-[4]
-<../Results/figures/fig1/fig1.pdf, id=107, 341.1144pt x 170.5572pt>
+) [3] [4]
+<../Results/figures/fig1/fig1.pdf, id=143, 341.1144pt x 170.5572pt>
 File: ../Results/figures/fig1/fig1.pdf Graphic file (type pdf)
 <use ../Results/figures/fig1/fig1.pdf>
-Package pdftex.def Info: ../Results/figures/fig1/fig1.pdf  used on input line 1
-9.
-(pdftex.def)             Requested size: 341.43306pt x 170.72594pt.
+Package pdftex.def Info: ../Results/figures/fig1/fig1.pdf  used on input line 2
+4.
+(pdftex.def)             Requested size: 284.52756pt x 142.27031pt.
 
-Overfull \hbox (7.27507pt too wide) in paragraph at lines 24--24
-|[]\OT1/ptm/b/n/14.4 Directional trans-fer func-
+Overfull \hbox (3.0pt too wide) in paragraph at lines 23--25
+ [][] 
  []
 
 
-Overfull \hbox (11.57562pt too wide) in paragraph at lines 26--27
-[]\OT1/ptm/m/n/12 Binaural record-ings were con-ducted
+Underfull \hbox (badness 1117) in paragraph at lines 31--32
+\OT1/ptm/m/n/12 tract di-rec-tional trans-fer func-tions (DTFs) of
  []
 
-
-Overfull \hbox (6.05814pt too wide) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 to ex-tract di-rec-tional trans-fer func-tions
- []
-
-
-Overfull \hbox (19.30595pt too wide) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 3046L-R minia-ture mi-cro-phones (PUIau-
- []
-
-
-Overfull \hbox (8.80612pt too wide) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 min-i-mize non-directional con-tri-bu-tions
- []
-
-
-Overfull \hbox (0.98286pt too wide) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 by standing-wave pat-tern in the canal,
- []
-
-
-Overfull \hbox (5.86618pt too wide) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 canal. Par-tic-i-pants were seated in front
- []
-
-
-Overfull \hbox (11.19496pt too wide) in paragraph at lines 26--27
-\OT1/ptm/m/n/12 of the loud-speaker ar-ray and were asked
- []
-
-
-Overfull \hbox (4.60652pt too wide) in paragraph at lines 30--36
-\OT1/ptm/m/n/12 grand mean across stan-dard de-vi-a-tions
- []
-
-
-Overfull \hbox (3.11859pt too wide) in paragraph at lines 30--36
-\OT1/ptm/m/n/12 each sound lo-ca-tion. The par-tic-i-pant's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
-
- []
-
-[5]) (../Results/results.tex [6]
-<../Results/figures/fig2/fig2.pdf, id=116, 284.02109pt x 369.29974pt>
+[5 <../Results/figures/fig1/fig1.pdf>]) (../Results/results.tex
+<../Results/figures/fig2/fig2.pdf, id=3632, 284.02109pt x 369.29974pt>
 File: ../Results/figures/fig2/fig2.pdf Graphic file (type pdf)
 <use ../Results/figures/fig2/fig2.pdf>
 Package pdftex.def Info: ../Results/figures/fig2/fig2.pdf  used on input line 8
 .
 (pdftex.def)             Requested size: 256.0748pt x 332.98091pt.
 
-
-LaTeX Warning: Reference `fig:ef_l_r' on page 1 undefined on input line 16.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-
 Overfull \hbox (6.55035pt too wide) in paragraph at lines 16--17
 []\OT1/ptm/m/n/12 Participants' di-rec-tional trans-fer func-tions (DTFs)
  []
 
-[7 <../Results/figures/fig2/fig2.pdf>]
-<../Results/figures/fig3/fig3.pdf, id=197, 426.39296pt x 284.02109pt>
+[6 <../Results/figures/fig2/fig2.pdf>]
+<../Results/figures/fig3/fig3.pdf, id=3703, 426.39296pt x 284.02109pt>
 File: ../Results/figures/fig3/fig3.pdf Graphic file (type pdf)
 <use ../Results/figures/fig3/fig3.pdf>
 Package pdftex.def Info: ../Results/figures/fig3/fig3.pdf  used on input line 3
 2.
 (pdftex.def)             Requested size: 426.79134pt x 284.29341pt.
-<../Results/figures/fig4/fig4.pdf, id=198, 312.92914pt x 314.37451pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Results/figures/fig4/fig4.pdf, id=3704, 312.92914pt x 314.37451pt>
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
@@ -674,22 +632,21 @@ File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
 2.
 (pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
- [8 <../Results/figures/fig3/fig3.pdf>]
-<../Results/figures/fig5/fig5.pdf, id=18833, 511.67162pt x 312.92914pt>
+[7]
+<../Results/figures/fig5/fig5.pdf, id=3717, 511.67162pt x 312.92914pt>
 File: ../Results/figures/fig5/fig5.pdf Graphic file (type pdf)
 <use ../Results/figures/fig5/fig5.pdf>
 Package pdftex.def Info: ../Results/figures/fig5/fig5.pdf  used on input line 5
 6.
 (pdftex.def)             Requested size: 512.1496pt x 313.24828pt.
-
-[9 <../Results/figures/fig4/fig4.pdf>] [10 <../Results/figures/fig5/fig5.pdf>]
-<../Results/figures/fig6/fig6.pdf, id=19350, 341.1144pt x 141.64919pt>
+ [8 <../Results/figures/fig3/fig3.pdf>]
+<../Results/figures/fig6/fig6.pdf, id=22351, 341.1144pt x 141.64919pt>
 File: ../Results/figures/fig6/fig6.pdf Graphic file (type pdf)
 <use ../Results/figures/fig6/fig6.pdf>
 Package pdftex.def Info: ../Results/figures/fig6/fig6.pdf  used on input line 7
 6.
 (pdftex.def)             Requested size: 341.43306pt x 141.7893pt.
-
+ [9 <../Results/figures/fig4/fig4.pdf>]
 Underfull \hbox (badness 4181) in paragraph at lines 82--82
 |[]\OT1/ptm/b/n/14.4 Effects of VSI dis-
  []
@@ -704,49 +661,57 @@ Underfull \hbox (badness 1502) in paragraph at lines 84--85
 \OT1/ptm/m/n/12 par-tic-i-pant's lo-cal-iza-tion per-for-
  []
 
-[11 <../Results/figures/fig6/fig6.pdf>]
-<../Results/figures/fig7/fig7.pdf, id=19386, 398.20773pt x 213.19647pt>
+[10 <../Results/figures/fig5/fig5.pdf> <../Results/figures/fig6/fig6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Results/figures/fig6/fig6
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<../Results/figures/fig7/fig7.pdf, id=22895, 398.20773pt x 213.19647pt>
 File: ../Results/figures/fig7/fig7.pdf Graphic file (type pdf)
 <use ../Results/figures/fig7/fig7.pdf>
 Package pdftex.def Info: ../Results/figures/fig7/fig7.pdf  used on input line 9
 6.
 (pdftex.def)             Requested size: 398.33858pt x 213.274pt.
-) (./Thesis.bbl
-Underfull \hbox (badness 3965) in paragraph at lines 26--35
+) (../Discussion/discussion.tex [11] [12 <../Results/figures/fig7/fig7.pdf>]
+[13] [14]) (./Thesis.bbl
+Underfull \hbox (badness 3965) in paragraph at lines 45--54
 []\OT1/ptm/m/n/12 R. Tra-peau, V. Aubrais, and M. Sch[]onwiesner.  Fast and per
 -sis-tent adap-ta-tion to new spec-
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 26--35
+Underfull \hbox (badness 4582) in paragraph at lines 45--54
 \OT1/ptm/m/n/12 tral cues for sound lo-cal-iza-tion sug-gests a many-to-one map
 -ping mech-a-nism.  \OT1/ptm/m/it/12 The Jour-nal
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 26--35
+Underfull \hbox (badness 3302) in paragraph at lines 45--54
 \OT1/ptm/m/it/12 of the Acous-ti-cal So-ci-ety of Amer-ica\OT1/ptm/m/n/12 , 140
 (2):879--890, Aug. 2016.  ISSN 0001-4966, 1520-
  []
 
-[12]) [13 <../Results/figures/fig7/fig7.pdf>] (./Thesis.aux)
+[15]) [16] (./Thesis.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D9EAE240F4EB5E25CDD5CF55A6DFAC51;6003.
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 41F2E42F1D6C556AFDA2E9460CE42BAC;6863
+(rerunfilecheck)             After:  84293567DC9E6451A1AA7C0EEBB24A90;7007.
  ) 
 Here is how much of TeX's memory you used:
- 14481 strings out of 476025
- 249652 string characters out of 5790016
+ 14515 strings out of 476025
+ 250336 string characters out of 5790016
  1865388 words of memory out of 5000000
- 34670 multiletter control sequences out of 15000+600000
- 546687 words of font info for 98 fonts, out of 8000000 for 9000
+ 34688 multiletter control sequences out of 15000+600000
+ 545580 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,117p,4103b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,117p,4161b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
@@ -754,10 +719,10 @@ usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
 3/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (13 pages, 4863215 bytes).
+Output written on Thesis.pdf (16 pages, 6841979 bytes).
 PDF statistics:
- 20059 PDF objects out of 22161 (max. 8388607)
- 13334 compressed objects within 134 object streams
- 45 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23589 PDF objects out of 26593 (max. 8388607)
+ 15689 compressed objects within 157 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
