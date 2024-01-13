@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,10 +14,30 @@ G.~Andéol, E.~A. Macpherson, and A.~T. Sabin.
 \newblock URL
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0378595513001445}.
 
+\bibitem[Davis et~al.(2003)Davis, Ramachandran, and May]{davis_auditory_2003}
+K.~A. Davis, R.~Ramachandran, and B.~J. May.
+\newblock Auditory {Processing} of {Spectral} {Cues} for {Sound} {Localization}
+  in the {Inferior} {Colliculus}.
+\newblock \emph{JARO - Journal of the Association for Research in
+  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003.
+\newblock ISSN 1525-3961, 1438-7573.
+\newblock \doi{10.1007/s10162-002-2002-5}.
+\newblock URL \url{http://link.springer.com/10.1007/s10162-002-2002-5}.
+
 \bibitem[Hofman(1998)]{hofman_relearning_1998}
 P.~M. Hofman.
 \newblock Relearning sound localization with new ears.
 \newblock \emph{nature neuroscience}, 1\penalty0 (5), 1998.
+
+\bibitem[Langendijk and Bronkhorst(2002)]{langendijk_contribution_2002}
+E.~H.~A. Langendijk and A.~W. Bronkhorst.
+\newblock Contribution of spectral cues to human sound localization.
+\newblock \emph{The Journal of the Acoustical Society of America}, 112\penalty0
+  (4):\penalty0 1583--1596, Oct. 2002.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.1501901}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/112/4/1583/550090/Contribution-of-spectral-cues-to-human-sound}.
 
 \bibitem[Middlebrooks(1999)]{middlebrooks_individual_1999}
 J.~C. Middlebrooks.
@@ -29,6 +49,17 @@ J.~C. Middlebrooks.
 \newblock \doi{10.1121/1.427176}.
 \newblock URL
   \url{https://pubs.aip.org/jasa/article/106/3/1480/553209/Individual-differences-in-external-ear-transfer}.
+
+\bibitem[Reiss and Young(2005)]{reiss_spectral_2005}
+L.~A.~J. Reiss and E.~D. Young.
+\newblock Spectral {Edge} {Sensitivity} in {Neural} {Circuits} of the {Dorsal}
+  {Cochlear} {Nucleus}.
+\newblock \emph{The Journal of Neuroscience}, 25\penalty0 (14):\penalty0
+  3680--3691, Apr. 2005.
+\newblock ISSN 0270-6474, 1529-2401.
+\newblock \doi{10.1523/JNEUROSCI.4963-04.2005}.
+\newblock URL
+  \url{https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.4963-04.2005}.
 
 \bibitem[Schönwiesner and Bialas(2021)]{schonwiesner_soundlab_2021}
 M.~Schönwiesner and O.~Bialas.
