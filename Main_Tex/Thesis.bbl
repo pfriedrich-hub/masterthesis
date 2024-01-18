@@ -1,9 +1,20 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Algazi et~al.(2001)Algazi, Avendano, and Duda]{algazi_elevation_2001}
+V.~R. Algazi, C.~Avendano, and R.~O. Duda.
+\newblock Elevation localization and head-related transfer function analysis at
+  low frequencies.
+\newblock \emph{The Journal of the Acoustical Society of America}, 109\penalty0
+  (3):\penalty0 1110--1122, Mar. 2001.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.1349185}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/109/3/1110/553520/Elevation-localization-and-head-related-transfer}.
 
 \bibitem[Andéol et~al.(2013)Andéol, Macpherson, and Sabin]{andeol_sound_2013}
 G.~Andéol, E.~A. Macpherson, and A.~T. Sabin.
@@ -14,12 +25,44 @@ G.~Andéol, E.~A. Macpherson, and A.~T. Sabin.
 \newblock URL
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0378595513001445}.
 
-\bibitem[Davis et~al.(2003)Davis, Ramachandran, and May]{davis_auditory_2003}
+\bibitem[Asano et~al.(1990)Asano, Suzuki, and Sone]{asano_role_1990}
+F.~Asano, Y.~Suzuki, and T.~Sone.
+\newblock Role of spectral cues in median plane localization.
+\newblock \emph{The Journal of the Acoustical Society of America}, 88\penalty0
+  (1):\penalty0 159--168, July 1990.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.399963}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/88/1/159/626776/Role-of-spectral-cues-in-median-plane}.
+
+\bibitem[Carlile and Blackman(2014)]{carlile_relearning_2014}
+S.~Carlile and T.~Blackman.
+\newblock Relearning {Auditory} {Spectral} {Cues} for {Locations} {Inside} and
+  {Outside} the {Visual} {Field}.
+\newblock \emph{Journal of the Association for Research in Otolaryngology},
+  15\penalty0 (2):\penalty0 249--263, Apr. 2014.
+\newblock ISSN 1525-3961, 1438-7573.
+\newblock \doi{10.1007/s10162-013-0429-5}.
+\newblock URL \url{http://link.springer.com/10.1007/s10162-013-0429-5}.
+
+\bibitem[Davis et~al.(2003{\natexlab{a}})Davis, Ramachandran, and
+  May]{davis_auditory_2003}
 K.~A. Davis, R.~Ramachandran, and B.~J. May.
 \newblock Auditory {Processing} of {Spectral} {Cues} for {Sound} {Localization}
   in the {Inferior} {Colliculus}.
 \newblock \emph{JARO - Journal of the Association for Research in
-  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003.
+  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003{\natexlab{a}}.
+\newblock ISSN 1525-3961, 1438-7573.
+\newblock \doi{10.1007/s10162-002-2002-5}.
+\newblock URL \url{http://link.springer.com/10.1007/s10162-002-2002-5}.
+
+\bibitem[Davis et~al.(2003{\natexlab{b}})Davis, Ramachandran, and
+  May]{davis_auditory_2003-1}
+K.~A. Davis, R.~Ramachandran, and B.~J. May.
+\newblock Auditory {Processing} of {Spectral} {Cues} for {Sound} {Localization}
+  in the {Inferior} {Colliculus}.
+\newblock \emph{JARO - Journal of the Association for Research in
+  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003{\natexlab{b}}.
 \newblock ISSN 1525-3961, 1438-7573.
 \newblock \doi{10.1007/s10162-002-2002-5}.
 \newblock URL \url{http://link.springer.com/10.1007/s10162-002-2002-5}.
@@ -28,6 +71,26 @@ K.~A. Davis, R.~Ramachandran, and B.~J. May.
 P.~M. Hofman.
 \newblock Relearning sound localization with new ears.
 \newblock \emph{nature neuroscience}, 1\penalty0 (5), 1998.
+
+\bibitem[Hofman and Van~Opstal(1998)]{hofman_spectro-temporal_1998}
+P.~M. Hofman and A.~J. Van~Opstal.
+\newblock Spectro-temporal factors in two-dimensional human sound localization.
+\newblock \emph{The Journal of the Acoustical Society of America}, 103\penalty0
+  (5):\penalty0 2634--2648, May 1998.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.422784}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/103/5/2634/557650/Spectro-temporal-factors-in-two-dimensional-human}.
+
+\bibitem[King and Hutchings(1987)]{king_spatial_1987}
+A.~J. King and M.~E. Hutchings.
+\newblock Spatial response properties of acoustically responsive neurons in the
+  superior colliculus of the ferret: a map of auditory space.
+\newblock \emph{Journal of Neurophysiology}, 57\penalty0 (2):\penalty0
+  596--624, Feb. 1987.
+\newblock ISSN 0022-3077, 1522-1598.
+\newblock \doi{10.1152/jn.1987.57.2.596}.
+\newblock URL \url{https://www.physiology.org/doi/10.1152/jn.1987.57.2.596}.
 
 \bibitem[Langendijk and Bronkhorst(2002)]{langendijk_contribution_2002}
 E.~H.~A. Langendijk and A.~W. Bronkhorst.
@@ -70,6 +133,17 @@ M.~Schönwiesner and O.~Bialas.
 \newblock ISSN 2475-9066.
 \newblock \doi{10.21105/joss.03284}.
 \newblock URL \url{https://joss.theoj.org/papers/10.21105/joss.03284}.
+
+\bibitem[Trapeau and Schönwiesner(2018)]{trapeau_encoding_2018}
+R.~Trapeau and M.~Schönwiesner.
+\newblock The {Encoding} of {Sound} {Source} {Elevation} in the {Human}
+  {Auditory} {Cortex}.
+\newblock \emph{The Journal of Neuroscience}, 38\penalty0 (13):\penalty0
+  3252--3264, Mar. 2018.
+\newblock ISSN 0270-6474, 1529-2401.
+\newblock \doi{10.1523/JNEUROSCI.2530-17.2018}.
+\newblock URL
+  \url{https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.2530-17.2018}.
 
 \bibitem[Trapeau et~al.(2016)Trapeau, Aubrais, and
   Schönwiesner]{trapeau_fast_2016}

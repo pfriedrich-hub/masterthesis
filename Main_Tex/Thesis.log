@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  13 JAN 2024 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.14)  18 JAN 2024 17:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -577,7 +577,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3] [4]
-<../Results/figures/fig1/fig1.pdf, id=151, 341.1144pt x 170.5572pt>
+<../Results/figures/fig1/fig1.pdf, id=131, 341.1144pt x 170.5572pt>
 File: ../Results/figures/fig1/fig1.pdf Graphic file (type pdf)
 <use ../Results/figures/fig1/fig1.pdf>
 Package pdftex.def Info: ../Results/figures/fig1/fig1.pdf  used on input line 2
@@ -594,19 +594,19 @@ Underfull \hbox (badness 1117) in paragraph at lines 31--32
  []
 
 [5 <../Results/figures/fig1/fig1.pdf>]) (../Results/results.tex
-<../Results/figures/fig2/fig2.pdf, id=3640, 284.02109pt x 369.29974pt>
+<../Results/figures/fig2/fig2.pdf, id=3620, 284.02109pt x 369.29974pt>
 File: ../Results/figures/fig2/fig2.pdf Graphic file (type pdf)
 <use ../Results/figures/fig2/fig2.pdf>
 Package pdftex.def Info: ../Results/figures/fig2/fig2.pdf  used on input line 8
 .
-(pdftex.def)             Requested size: 256.0748pt x 332.98091pt.
+(pdftex.def)             Requested size: 284.52756pt x 369.98067pt.
 
-Overfull \hbox (6.55035pt too wide) in paragraph at lines 16--17
-[]\OT1/ptm/m/n/12 Participants' di-rec-tional trans-fer func-tions (DTFs)
+Underfull \hbox (badness 3068) in paragraph at lines 14--14
+|[]\OT1/ptm/b/n/14.4 VSI and lo-cal-iza-tion per-for-
  []
 
 [6 <../Results/figures/fig2/fig2.pdf>]
-<../Results/figures/fig3/fig3.pdf, id=3713, 426.39296pt x 284.02109pt>
+<../Results/figures/fig3/fig3.pdf, id=3693, 426.39296pt x 284.02109pt>
 File: ../Results/figures/fig3/fig3.pdf Graphic file (type pdf)
 <use ../Results/figures/fig3/fig3.pdf>
 Package pdftex.def Info: ../Results/figures/fig3/fig3.pdf  used on input line 3
@@ -616,31 +616,36 @@ Package pdftex.def Info: ../Results/figures/fig3/fig3.pdf  used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Results/figures/fig4/fig4.pdf, id=3714, 312.92914pt x 314.37451pt>
+<../Results/figures/fig4/fig4.pdf, id=3694, 312.92914pt x 314.37451pt>
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
 3.
-(pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
+(pdftex.def)             Requested size: 312.9803pt x 314.44568pt.
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
 3.
-(pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
+(pdftex.def)             Requested size: 312.9803pt x 314.44568pt.
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package pdftex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
 3.
-(pdftex.def)             Requested size: 284.52756pt x 285.86058pt.
+(pdftex.def)             Requested size: 312.9803pt x 314.44568pt.
+
+Overfull \hbox (24.66559pt too wide) detected at line 43
+ [] 
+ []
+
 [7]
-<../Results/figures/fig5/fig5.pdf, id=3726, 511.67162pt x 312.92914pt>
+<../Results/figures/fig5/fig5.pdf, id=3706, 511.67162pt x 312.92914pt>
 File: ../Results/figures/fig5/fig5.pdf Graphic file (type pdf)
 <use ../Results/figures/fig5/fig5.pdf>
 Package pdftex.def Info: ../Results/figures/fig5/fig5.pdf  used on input line 5
 7.
 (pdftex.def)             Requested size: 512.1496pt x 313.24828pt.
  [8 <../Results/figures/fig3/fig3.pdf>] [9 <../Results/figures/fig4/fig4.pdf>]
-<../Results/figures/fig6/fig6.pdf, id=22505, 341.1144pt x 141.64919pt>
+<../Results/figures/fig6/fig6.pdf, id=22484, 341.1144pt x 141.64919pt>
 File: ../Results/figures/fig6/fig6.pdf Graphic file (type pdf)
 <use ../Results/figures/fig6/fig6.pdf>
 Package pdftex.def Info: ../Results/figures/fig6/fig6.pdf  used on input line 7
@@ -666,52 +671,52 @@ Underfull \hbox (badness 1502) in paragraph at lines 85--86
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../Results/figures/fig6/fig6
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [11]
-<../Results/figures/fig7/fig7.pdf, id=22908, 398.20773pt x 213.19647pt>
+<../Results/figures/fig7/fig7.pdf, id=22888, 398.20773pt x 213.19647pt>
 File: ../Results/figures/fig7/fig7.pdf Graphic file (type pdf)
 <use ../Results/figures/fig7/fig7.pdf>
 Package pdftex.def Info: ../Results/figures/fig7/fig7.pdf  used on input line 9
 7.
 (pdftex.def)             Requested size: 398.33858pt x 213.274pt.
 ) (../Discussion/discussion.tex [12 <../Results/figures/fig7/fig7.pdf>]
-[13]) (./Thesis.bbl [14]
-Underfull \hbox (badness 3965) in paragraph at lines 76--85
+[13]) (./Thesis.bbl
+Underfull \hbox (badness 1902) in paragraph at lines 29--37
+\OT1/ptm/m/it/12 nal of the Acous-ti-cal So-ci-ety of Amer-ica\OT1/ptm/m/n/12 ,
+ 88(1):159--168, July 1990.  ISSN 0001-4966, 1520-
+ []
+
+[14] [15]
+Underfull \hbox (badness 3965) in paragraph at lines 150--159
 []\OT1/ptm/m/n/12 R. Tra-peau, V. Aubrais, and M. Sch[]onwiesner.  Fast and per
 -sis-tent adap-ta-tion to new spec-
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 76--85
+Underfull \hbox (badness 4582) in paragraph at lines 150--159
 \OT1/ptm/m/n/12 tral cues for sound lo-cal-iza-tion sug-gests a many-to-one map
 -ping mech-a-nism.  \OT1/ptm/m/it/12 The Jour-nal
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 76--85
+Underfull \hbox (badness 3302) in paragraph at lines 150--159
 \OT1/ptm/m/it/12 of the Acous-ti-cal So-ci-ety of Amer-ica\OT1/ptm/m/n/12 , 140
 (2):879--890, Aug. 2016.  ISSN 0001-4966, 1520-
  []
 
-) [15] (./Thesis.aux)
+) [16] (./Thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: D9850CC1DE25ED8FE92B10FC6F659F1B;7285
-(rerunfilecheck)             After:  F151E2E640BA5EE5F094195449E630D8;7406.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: B14E6157B9C3889AE63A5E09C16E2E0A;6641.
  ) 
 Here is how much of TeX's memory you used:
- 14532 strings out of 476025
- 250766 string characters out of 5790016
- 1864388 words of memory out of 5000000
- 34700 multiletter control sequences out of 15000+600000
+ 14549 strings out of 476025
+ 251384 string characters out of 5790016
+ 1868388 words of memory out of 5000000
+ 34715 multiletter control sequences out of 15000+600000
  545580 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,117p,4929b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,117p,4926b,696s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
@@ -719,10 +724,10 @@ usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
 3/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (15 pages, 6847207 bytes).
+Output written on Thesis.pdf (16 pages, 6852034 bytes).
 PDF statistics:
- 23637 PDF objects out of 26593 (max. 8388607)
- 15737 compressed objects within 158 object streams
- 63 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23669 PDF objects out of 26593 (max. 8388607)
+ 15768 compressed objects within 158 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
