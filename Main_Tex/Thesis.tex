@@ -6,17 +6,24 @@
 \usepackage[capitalise]{cleveref}
 \usepackage{mathptmx}
 
-% sections
 % section and subsection titles
+% spacing
+\usepackage{etoolbox}
 \usepackage{titlesec}
 \titlespacing*{\section}
-{0pt}{1.5\baselineskip}{2\baselineskip}
+{0pt}{2\baselineskip}{\baselineskip}
 \titlespacing*{\subsection}
-{0pt}{1.5\baselineskip}{\baselineskip}
+{0pt}{\baselineskip}{.5\baselineskip}
+% fonts
+\usepackage{fontspec}
+\newfontfamily\subsectionfont{Arial-BoldMT}
+\newfontfamily\sectionfont{Arial-BoldMT}
+\newfontfamily\mainfont{TimesNewRomanPSMT}
+% header spacing
 \titleformat{\section}
-{\normalfont\Large\bfseries}{\thesection}{1em}{}
+{\sectionfont\large\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}
-{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+{\subsectionfont\large\bfseries}{\thesubsection}{1em}{}
 %{0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
 % section and subsection numbering
 \renewcommand{\thesubsection}{\Alph{subsection}.}
@@ -27,7 +34,6 @@
 % column margins
 \usepackage[margin={1.5cm,1.5cm}]{geometry} 
 %\setlength{\columnsep}{.5cm}
-
 % multicolumns 
 %\usepackage{multicol, caption} 
 
