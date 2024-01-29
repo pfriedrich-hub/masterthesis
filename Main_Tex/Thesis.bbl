@@ -1,9 +1,23 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agterberg et~al.(2012)Agterberg, Snik, Hol, Van~Wanrooij, and
+  Van~Opstal]{agterberg_contribution_2012}
+M.~J. Agterberg, A.~F. Snik, M.~K. Hol, M.~M. Van~Wanrooij, and A.~J.
+  Van~Opstal.
+\newblock Contribution of monaural and binaural cues to sound localization in
+  listeners with acquired unilateral conductive hearing loss: {Improved}
+  directional hearing with a bone-conduction device.
+\newblock \emph{Hearing Research}, 286\penalty0 (1-2):\penalty0 9--18, Apr.
+  2012.
+\newblock ISSN 03785955.
+\newblock \doi{10.1016/j.heares.2012.02.012}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0378595512000482}.
 
 \bibitem[Algazi et~al.(2001)Algazi, Avendano, and Duda]{algazi_elevation_2001}
 V.~R. Algazi, C.~Avendano, and R.~O. Duda.
@@ -34,6 +48,23 @@ F.~Asano, Y.~Suzuki, and T.~Sone.
 \newblock \doi{10.1121/1.399963}.
 \newblock URL
   \url{https://pubs.aip.org/jasa/article/88/1/159/626776/Role-of-spectral-cues-in-median-plane}.
+
+\bibitem[Baumgartner et~al.(2014)Baumgartner, Majdak, and
+  Laback]{baumgartner_modeling_2014}
+R.~Baumgartner, P.~Majdak, and B.~Laback.
+\newblock Modeling sound-source localization in sagittal planes for human
+  listeners.
+\newblock \emph{The Journal of the Acoustical Society of America}, 136\penalty0
+  (2):\penalty0 791--802, Aug. 2014.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.4887447}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/136/2/791/842722/Modeling-sound-source-localization-in-sagittal}.
+
+\bibitem[Blauert(1969)]{blauert_sound_1969}
+J.~Blauert.
+\newblock Sound {Localization} in the {Median} {Plane}.
+\newblock \emph{Acta Acustica united with Acustica}, 22, Nov. 1969.
 
 \bibitem[Blauert(1996)]{blauert_spatial_1996}
 J.~Blauert.
@@ -73,27 +104,26 @@ R.~K. Clifton, M.~G. Clarkson, J.~Gwiazda, and J.~A. Bauer.
   1988.
 \newblock \doi{0O12-1649/88/$00.75}.
 
-\bibitem[Davis et~al.(2003{\natexlab{a}})Davis, Ramachandran, and
-  May]{davis_auditory_2003}
+\bibitem[Davis et~al.(2003)Davis, Ramachandran, and May]{davis_auditory_2003}
 K.~A. Davis, R.~Ramachandran, and B.~J. May.
 \newblock Auditory {Processing} of {Spectral} {Cues} for {Sound} {Localization}
   in the {Inferior} {Colliculus}.
 \newblock \emph{JARO - Journal of the Association for Research in
-  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003{\natexlab{a}}.
+  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003.
 \newblock ISSN 1525-3961, 1438-7573.
 \newblock \doi{10.1007/s10162-002-2002-5}.
 \newblock URL \url{http://link.springer.com/10.1007/s10162-002-2002-5}.
 
-\bibitem[Davis et~al.(2003{\natexlab{b}})Davis, Ramachandran, and
-  May]{davis_auditory_2003-1}
-K.~A. Davis, R.~Ramachandran, and B.~J. May.
-\newblock Auditory {Processing} of {Spectral} {Cues} for {Sound} {Localization}
-  in the {Inferior} {Colliculus}.
-\newblock \emph{JARO - Journal of the Association for Research in
-  Otolaryngology}, 4\penalty0 (2):\penalty0 148--163, June 2003{\natexlab{b}}.
-\newblock ISSN 1525-3961, 1438-7573.
-\newblock \doi{10.1007/s10162-002-2002-5}.
-\newblock URL \url{http://link.springer.com/10.1007/s10162-002-2002-5}.
+\bibitem[Hebrank and Wright(1974)]{hebrank_spectral_1974}
+J.~Hebrank and D.~Wright.
+\newblock Spectral cues used in the localization of sound sources on the median
+  plane.
+\newblock \emph{The Journal of the Acoustical Society of America}, 56\penalty0
+  (6):\penalty0 1829--1834, Dec. 1974.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.1903520}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/56/6/1829/689656/Spectral-cues-used-in-the-localization-of-sound}.
 
 \bibitem[Hofman(1998)]{hofman_relearning_1998}
 P.~M. Hofman.
@@ -141,6 +171,33 @@ E.~H.~A. Langendijk and A.~W. Bronkhorst.
 \newblock \doi{10.1121/1.1501901}.
 \newblock URL
   \url{https://pubs.aip.org/jasa/article/112/4/1583/550090/Contribution-of-spectral-cues-to-human-sound}.
+
+\bibitem[Macpherson and Middlebrooks(2002)]{macpherson_listener_2002}
+E.~A. Macpherson and J.~C. Middlebrooks.
+\newblock Listener weighting of cues for lateral angle: {The} duplex theory of
+  sound localization revisiteda).
+\newblock \emph{J. Acoust. Soc. Am.}, 111\penalty0 (5), 2002.
+
+\bibitem[Majdak et~al.(2014)Majdak, Baumgartner, and
+  Laback]{majdak_acoustic_2014}
+P.~Majdak, R.~Baumgartner, and B.~Laback.
+\newblock Acoustic and non-acoustic factors in modeling listener-specific
+  performance of sagittal-plane sound localization.
+\newblock \emph{Frontiers in Psychology}, 5, Apr. 2014.
+\newblock ISSN 1664-1078.
+\newblock \doi{10.3389/fpsyg.2014.00319}.
+\newblock URL
+  \url{http://journal.frontiersin.org/article/10.3389/fpsyg.2014.00319/abstract}.
+
+\bibitem[Middlebrooks(1992)]{middlebrooks_narrow-band_1992}
+J.~C. Middlebrooks.
+\newblock Narrow-band sound localization related to external ear acoustics.
+\newblock \emph{The Journal of the Acoustical Society of America}, 92\penalty0
+  (5):\penalty0 2607--2624, Nov. 1992.
+\newblock ISSN 0001-4966, 1520-8524.
+\newblock \doi{10.1121/1.404400}.
+\newblock URL
+  \url{https://pubs.aip.org/jasa/article/92/5/2607/843485/Narrow-band-sound-localization-related-to-external}.
 
 \bibitem[Middlebrooks(1999)]{middlebrooks_individual_1999}
 J.~C. Middlebrooks.
@@ -197,22 +254,11 @@ M.~Schönwiesner and O.~Bialas.
 \newblock \doi{10.21105/joss.03284}.
 \newblock URL \url{https://joss.theoj.org/papers/10.21105/joss.03284}.
 
-\bibitem[Steadman et~al.(2019{\natexlab{a}})Steadman, Kim, Lestang, Goodman,
-  and Picinali]{steadman_short-term_2019}
+\bibitem[Steadman et~al.(2019)Steadman, Kim, Lestang, Goodman, and
+  Picinali]{steadman_short-term_2019}
 M.~A. Steadman, C.~Kim, J.-H. Lestang, D.~F.~M. Goodman, and L.~Picinali.
 \newblock Short-term effects of sound localization training in virtual reality.
-\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 18284, Dec.
-  2019{\natexlab{a}}.
-\newblock ISSN 2045-2322.
-\newblock \doi{10.1038/s41598-019-54811-w}.
-\newblock URL \url{https://www.nature.com/articles/s41598-019-54811-w}.
-
-\bibitem[Steadman et~al.(2019{\natexlab{b}})Steadman, Kim, Lestang, Goodman,
-  and Picinali]{steadman_short-term_2019-1}
-M.~A. Steadman, C.~Kim, J.-H. Lestang, D.~F.~M. Goodman, and L.~Picinali.
-\newblock Short-term effects of sound localization training in virtual reality.
-\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 18284, Dec.
-  2019{\natexlab{b}}.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 18284, Dec. 2019.
 \newblock ISSN 2045-2322.
 \newblock \doi{10.1038/s41598-019-54811-w}.
 \newblock URL \url{https://www.nature.com/articles/s41598-019-54811-w}.

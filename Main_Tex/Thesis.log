@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.14)  24 JAN 2024 18:57
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.12.14)  29 JAN 2024 17:50
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Thesis.tex
@@ -800,32 +800,32 @@ LaTeX Warning: Label `sec1@cref' multiply defined.
 )
 \openout1 = Thesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-3.
+2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-Package hyperref Info: Link coloring ON on input line 63.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+Package hyperref Info: Link coloring ON on input line 62.
  (./Thesis.out)
 (./Thesis.out)
 \@outlinefile=\write4
@@ -900,181 +900,166 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 69.
+ 68.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 69.
+ 68.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 69.
+ 68.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 69.
+ 68.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-9.
+8.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 
-(../Introduction/introduction.tex [1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(../Introduction/introduction.tex
 
 LaTeX Font Warning: Font shape `TU/Arial-BoldMT(0)/b/n' undefined
 (Font)              using `TU/Arial-BoldMT(0)/m/n' instead on input line 1.
 
-) (../Methods/methods.tex
+) [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(../Methods/methods.tex [2]
+<../Results/figures/earmold/mold.pdf, id=175, 142.25145pt x 196.5744pt>
+File: ../Results/figures/earmold/mold.pdf Graphic file (type pdf)
+<use ../Results/figures/earmold/mold.pdf>
+Package luatex.def Info: ../Results/figures/earmold/mold.pdf  used on input lin
+e 12.
+(luatex.def)             Requested size: 113.81102pt x 157.27173pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
- [2] [3] [4]
-<../Results/figures/fig1/fig1.pdf, id=169, 341.1144pt x 170.5572pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+ [3<../Results/figures/earmold/mold.pdf>] [4]
+<../Results/figures/fig1/fig1.pdf, id=202, 341.1144pt x 170.5572pt>
 File: ../Results/figures/fig1/fig1.pdf Graphic file (type pdf)
 <use ../Results/figures/fig1/fig1.pdf>
-Package luatex.def Info: ../Results/figures/fig1/fig1.pdf  used on input line 2
-4.
+Package luatex.def Info: ../Results/figures/fig1/fig1.pdf  used on input line 3
+3.
 (luatex.def)             Requested size: 284.52756pt x 142.27031pt.
+)
+(../Results/results.tex [5<../Results/figures/fig1/fig1.pdf>]
+<../Results/figures/fig2/fig2.pdf, id=3704, 284.02109pt x 369.29974pt>
+File: ../Results/figures/fig2/fig2.pdf Graphic file (type pdf)
+<use ../Results/figures/fig2/fig2.pdf>
+Package luatex.def Info: ../Results/figures/fig2/fig2.pdf  used on input line 1
+3.
+(luatex.def)             Requested size: 284.52756pt x 369.98067pt.
 
-Overfull \hbox (3.912pt too wide) in paragraph at lines 23--25
+Overfull \hbox (3.912pt too wide) in paragraph at lines 12--14
  [][] 
  []
 
-
-Underfull \hbox (badness 1253) in paragraph at lines 31--32
-\TU/lmr/m/n/12 sound pres-sure level at the ear eardrum.
- []
-
-) [5<../Results/figures/fig1/fig1.pdf>] (../Results/results.tex
-<../Results/figures/fig2/fig2.pdf, id=3657, 284.02109pt x 369.29974pt>
-File: ../Results/figures/fig2/fig2.pdf Graphic file (type pdf)
-<use ../Results/figures/fig2/fig2.pdf>
-Package luatex.def Info: ../Results/figures/fig2/fig2.pdf  used on input line 8
-.
-(luatex.def)             Requested size: 284.52756pt x 369.98067pt.
-
-Underfull \hbox (badness 1527) in paragraph at lines 16--17
-\OML/ztmcm/m/it/12 p \OT1/ztmcm/m/n/12 = 10[]$\TU/lmr/m/n/12 ). The dis-sim-i-la
-r-ity be-tween
- []
-
 [6<../Results/figures/fig2/fig2.pdf>]
-<../Results/figures/fig3/fig3.pdf, id=3728, 426.39296pt x 284.02109pt>
+<../Results/figures/fig3/fig3.pdf, id=3770, 426.39296pt x 284.02109pt>
 File: ../Results/figures/fig3/fig3.pdf Graphic file (type pdf)
 <use ../Results/figures/fig3/fig3.pdf>
 Package luatex.def Info: ../Results/figures/fig3/fig3.pdf  used on input line 2
-6.
+7.
 (luatex.def)             Requested size: 426.79134pt x 284.29341pt.
  [7<../Results/figures/fig3/fig3.pdf>]
-<../Results/figures/fig4/fig4.pdf, id=22364, 312.92914pt x 314.37451pt>
+<../Results/figures/fig4/fig4.pdf, id=22405, 312.92914pt x 314.37451pt>
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package luatex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
-3.
+6.
 (luatex.def)             Requested size: 312.9803pt x 314.44568pt.
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package luatex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
-3.
+6.
 (luatex.def)             Requested size: 312.9803pt x 314.44568pt.
 File: ../Results/figures/fig4/fig4.pdf Graphic file (type pdf)
 <use ../Results/figures/fig4/fig4.pdf>
 Package luatex.def Info: ../Results/figures/fig4/fig4.pdf  used on input line 4
-3.
+6.
 (luatex.def)             Requested size: 312.9803pt x 314.44568pt.
 
 [8<../Results/figures/fig4/fig4.pdf>]
-<../Results/figures/fig5/fig5.pdf, id=22512, 511.67162pt x 312.92914pt>
+<../Results/figures/fig5/fig5.pdf, id=22552, 511.67162pt x 312.92914pt>
 File: ../Results/figures/fig5/fig5.pdf Graphic file (type pdf)
 <use ../Results/figures/fig5/fig5.pdf>
-Package luatex.def Info: ../Results/figures/fig5/fig5.pdf  used on input line 5
-7.
+Package luatex.def Info: ../Results/figures/fig5/fig5.pdf  used on input line 6
+4.
 (luatex.def)             Requested size: 512.1496pt x 313.24828pt.
  [9<../Results/figures/fig5/fig5.pdf>]
-<../Results/figures/fig6/fig6.pdf, id=22881, 341.1144pt x 141.64919pt>
+<../Results/figures/fig6/fig6.pdf, id=22920, 341.1144pt x 141.64919pt>
 File: ../Results/figures/fig6/fig6.pdf Graphic file (type pdf)
 <use ../Results/figures/fig6/fig6.pdf>
 Package luatex.def Info: ../Results/figures/fig6/fig6.pdf  used on input line 7
 7.
 (luatex.def)             Requested size: 341.43306pt x 141.7893pt.
 
-Underfull \hbox (badness 1082) in paragraph at lines 85--86
-\TU/lmr/m/n/12 be-hav-ioral ef-fects of the ear-
+Overfull \hbox (3.912pt too wide) in paragraph at lines 76--78
+ [][] 
  []
 
 [10<../Results/figures/fig6/fig6.pdf>]
-Overfull \hbox (9.64276pt too wide) in paragraph at lines 91--91
-|[]\TU/Arial-BoldMT(0)/b/n/14.4 Ver-ti-cal lo-cal-iza-tion ac-cu-racy with the 
-first ear-molds de-creased dur-ing adap-
- []
-
-<../Results/figures/fig7/fig7.pdf, id=22920, 398.20773pt x 213.19647pt>
+<../Results/figures/fig7/fig7.pdf, id=22961, 398.20773pt x 213.19647pt>
 File: ../Results/figures/fig7/fig7.pdf Graphic file (type pdf)
 <use ../Results/figures/fig7/fig7.pdf>
-Package luatex.def Info: ../Results/figures/fig7/fig7.pdf  used on input line 1
-00.
+Package luatex.def Info: ../Results/figures/fig7/fig7.pdf  used on input line 9
+7.
 (luatex.def)             Requested size: 398.33858pt x 213.274pt.
-) (../Discussion/discussion.tex [11] [12<../Results/figures/fig7/fig7.pdf>])
-[13] (./Thesis.bbl [14] [15]
-Underfull \hbox (badness 1264) in paragraph at lines 233--242
+) (../Discussion/discussion.tex [11<../Results/figures/fig7/fig7.pdf>] [12]) [1
+3] (./Thesis.bbl [14] [15]
+Underfull \hbox (badness 1264) in paragraph at lines 279--288
 \TU/lmr/m/it/12 of the Acous-ti-cal So-ci-ety of Amer-ica\TU/lmr/m/n/12 , 140(2)
 :879--890, Aug. 2016.  ISSN 0001-4966, 1520-
  []
 
-[16]) [17] (./Thesis.aux)
+) [16] (./Thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 4412ED02F09163B26E40437204B2AE50;6033
-(rerunfilecheck)             After:  53EE173191A7183BCA3EAD24C341CC40;6015.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: E2A87B3FB0C9607995765B7BB0112085;5886.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26073 strings out of 478285
- 156265,1977958 words of node,token memory allocated
- 648 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 25 attribute, 55 glue_spec
-, 25 attribute_list, 2 write, 20 pdf_action nodes
-   avail lists: 1:3,2:713,3:592,4:192,5:723,6:39,7:14809,8:101,9:352,10:41,11:13
-89
- 45074 multiletter control sequences out of 65536+600000
+ 26109 strings out of 478285
+ 156295,1977958 words of node,token memory allocated
+ 738 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 34 attribute, 55 glue_spec
+, 34 attribute_list, 2 write, 29 pdf_action nodes
+   avail lists: 2:655,3:572,4:227,5:640,6:25,7:13192,8:101,9:352,10:67,11:1202
+ 45099 multiletter control sequences out of 65536+600000
  140 fonts using 14300831 bytes
- 105i,10n,115p,5483b,750s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,10n,115p,5747b,750s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.ot
 f></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.
+otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.
 otf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
-texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/
 texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></System/
 Library/Fonts/Supplemental/Arial Bold.ttf></usr/local/texlive/2023/texmf-dist/fo
 nts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2023/texmf-dist
@@ -1084,10 +1069,10 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on Thesis.pdf (17 pages, 6894933 bytes).
+Output written on Thesis.pdf (16 pages, 10425012 bytes).
 
-PDF statistics: 23760 PDF objects out of 26593 (max. 8388607)
- 15845 compressed objects within 159 object streams
- 75 named destinations out of 1000 (max. 131072)
+PDF statistics: 23803 PDF objects out of 26593 (max. 8388607)
+ 15887 compressed objects within 159 object streams
+ 80 named destinations out of 1000 (max. 131072)
  208 words of extra memory for PDF output out of 10000 (max. 100000000)
 
